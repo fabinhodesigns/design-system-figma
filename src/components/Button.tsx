@@ -13,7 +13,7 @@ export function Button({ children, asChild, className, ...props }: ButtonProps) 
     return (    
         <Comp
             className={clsx(
-                'py-4 px-3 bg-purple-900 rounded font-semibold text-white',
+                'py-3 px-4 bg-purple-900 rounded font-semibold text-white hover:bg-purple-400',
                 className
             )}
             {...props}
